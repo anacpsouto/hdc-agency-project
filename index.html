@@ -50,8 +50,51 @@
   </head>
 
   <body>
-    <h1>Teste</h1>
-    <!--Linkando o arquivo javascript no html -->
+    <header>
+      <div class="container" id="nav-container">
+        <nav class="navbar navbar-expand-lg fixed-top">
+          <a href="#" class="navbar-brand">
+            <img id="logo" src="img/hdcagency_logo.svg" alt="hDC Agency" /> hDC
+            Agency
+          </a>
+          <!-- Os atributos abaixo fazem parte do framework bootstrap ( esse button é referente ao botao sanduiche) -->
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbar-links"
+            aria-controls="navbar-links"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- 
+          collapse = serve para a navbar sumir e só aparecer quando clicar no hamburguer -->
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbar-links"
+          >
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="" id="home-menu">Home</a>
+              <a class="nav-item nav-link" href="" id="about-menu">A agência</a>
+              <a class="nav-item nav-link" href="" id="services-menu"
+                >Serviços</a
+              >
+              <a class="nav-item nav-link" href="" id="team-menu">Time</a>
+              <a class="nav-item nav-link" href="" id="portfolio-menu"
+                >Projetos</a
+              >
+              <a class="nav-item nav-link" href="" id="contact-menu">Contato</a>
+            </div>
+          </div>
+          <!-- com -->
+          <!-- com -->
+        </nav>
+      </div>
+    </header>
+    <!-- Linkando o arquivo javascript no html -->
     <script src="js/scripts.js"></script>
   </body>
 </html>

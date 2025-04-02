@@ -1,3 +1,58 @@
-h1 {
-  color: red;
+/* Estilos Gerais */
+
+body {
+  /*Caso nao exista o Roboto, ele aplica a fonte: Sans-serif*/
+  font-family: "Roboto", sans-serif;
+}
+
+.row {
+  margin: 0;
+}
+
+.contain {
+  /*Definindo 70px de superior e inferior, e 0 para as laterais.*/
+  padding: 70px 0;
+}
+
+p,
+li {
+  color: #444;
+  font-size: 14px;
+}
+
+/* Estilos da Barra de navegação */
+header,
+.navbar {
+  background-color: #353d41;
+}
+
+#nav-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#logo {
+  width: 75px;
+}
+
+.navbar-brand {
+  padding: 0;
+  color: #fff;
+}
+
+.navbar-brand:hover {
+  color: #fff;
+}
+
+#navbar-links a {
+  color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  /* O que esta sendo feito embaixo é: pegando o tamanho ja determinado de padding
+    e aplicando uma porcentagem para as laterais com base no que ta definido no root. 
+    ex: se no root está definido como: 14px, será 14x1=14 para superior e inferior e 14x0.8
+    para laterais. 
+  */
+  padding: 1rem 0.8rem;
 }
