@@ -184,3 +184,7 @@ header,
 .service-box:hover > h4 {
   color: #65daf9;
 }
+
+#services-area {
+  padding: 65px 0;
+}
