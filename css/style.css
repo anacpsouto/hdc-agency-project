@@ -200,6 +200,10 @@ header,
   font-size: 32px;
 }
 
+#data-area {
+  padding: 65px 0;
+}
+
 #data-area p {
   color: #fff;
   text-align: center;
