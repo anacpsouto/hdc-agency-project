@@ -94,4 +94,10 @@ $(document).ready(function () {
       stop = 1;
     }
   });
+
+  //Parallax
+  setTimeout(function () {
+    //pra carregar as imagens da pagina primeiro (Evita bugs)
+    $("#data-area").parallax({ imageSrc: "/img/cidadeparallax.png" });
+  }, 250); //250 milesimos
 });
