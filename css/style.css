@@ -210,3 +210,12 @@ header,
   font-size: 26px;
   margin-top: 20px;
 }
+
+/* TIME */
+
+#team-area {
+  padding: 65px 0;
+}
+.card-body {
+  text-align: center;
+}
