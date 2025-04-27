@@ -219,3 +219,13 @@ header,
 .card-body {
   text-align: center;
 }
+
+/* Trabalhe conosco */
+
+#apply-area {
+  height: 500px;
+}
+
+#apply-area .container-fluid, #apply-area .row {
+  height: 100%;
+}
